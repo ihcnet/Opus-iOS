@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60A86C5920A578880058D882 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		D4D822D41DC9612800946CA2 /* opus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = opus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D822D81DC9612800946CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D822EF1DC9698B00946CA2 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 			children = (
 				D4D822EC1DC9698B00946CA2 /* dependencies */,
 				D4D822D81DC9612800946CA2 /* Info.plist */,
+				60A86C5920A578880058D882 /* Config.xcconfig */,
 			);
 			path = opus;
 			sourceTree = "<group>";
@@ -222,6 +224,7 @@
 /* Begin XCBuildConfiguration section */
 		D4D822DA1DC9612800946CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A86C5920A578880058D882 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -266,6 +269,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7 armv7s";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -273,6 +278,7 @@
 		};
 		D4D822DB1DC9612800946CA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A86C5920A578880058D882 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -311,6 +317,8 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7 armv7s";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -318,6 +326,7 @@
 		};
 		D4D822DD1DC9612800946CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A86C5920A578880058D882 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -343,6 +352,7 @@
 		};
 		D4D822DE1DC9612800946CA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A86C5920A578880058D882 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
