@@ -25,7 +25,6 @@
 		D4D822F61DC9698B00946CA2 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D822F01DC9698B00946CA2 /* opus_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4D822F71DC9698B00946CA2 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D822F11DC9698B00946CA2 /* opus_multistream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4D822F81DC9698B00946CA2 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D822F21DC9698B00946CA2 /* opus_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4D822F91DC9698B00946CA2 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D822F41DC9698B00946CA2 /* libopus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D822F91DC9698B00946CA2 /* libopus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
